@@ -1,0 +1,75 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# API docs
+**/doc/api/
+**/ios/Flutter/.last_build_id
+
+# Flutter specific
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio build artifacts
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# FVM Version Cache
+.fvm/
+
+# ─────────────────────────────
+# 추가된 무거운 플랫폼/환경 관련 제외
+# ─────────────────────────────
+
+# Android 전체 (개인 프로젝트라면 빼도 OK, 팀이라면 주의)
+
+# iOS CocoaPods
+ios/Pods/
+ios/Runner.xcworkspace/
+ios/.symlinks/
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+
+# macOS
+macos/Pods/
+macos/Runner.xcworkspace/
+macos/.symlinks/
+
+# Windows & Linux build/generated
+windows/flutter/
+windows/CMakeFiles/
+windows/runner/GeneratedPluginRegistrant.*
+linux/flutter/
+linux/CMakeFiles/
+linux/runner/GeneratedPluginRegistrant.*
+
+# Web build outputs
+web/.dart_tool/
+web/build/
